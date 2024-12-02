@@ -16,16 +16,12 @@ yarn install
    FES_DIRECTORY=/Users/joe.bloggs/development/WCP-Services/frontend-services
    ```
 
-2. Install dependencies.
-
-   ```bash
-   yarn install
-   ```
-
-3. Run the script.
+2. Run the script.
 
    ```bash
    yarn start:fes
    ```
 
-4. Select the packages you want to install
+3. Select the packages you want to install and the services you want to run.
+
+4. The generated command sequence will be copied to your clipboard.
