@@ -1,0 +1,22 @@
+{
+  "name": "yalc-command-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "immediatealex <alex.nicholas@immediate.co.uk>",
+  "license": "MIT",
+  "scripts": {
+    "start:fes": "node --no-warnings=ExperimentalWarning --loader esbuild-register/loader -r esbuild-register ./src/index.ts"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.1.0",
+    "clipboardy": "^4.0.0",
+    "dotenv": "^16.4.5",
+    "enquirer": "^2.4.1",
+    "esbuild": "^0.24.0",
+    "esbuild-register": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "prettier": "^3.4.1"
+  }
+}
